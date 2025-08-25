@@ -26,5 +26,7 @@ public class OrderDTO {
     @JsonProperty("PAYMENT_TERMS")
     private String paymentTerms;
 
+    @JsonProperty("AMOUNT")
+    private String amount;
 
 }

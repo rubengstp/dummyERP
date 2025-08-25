@@ -14,5 +14,4 @@ public class GetInvoiceResponse {
     private String rfc;
     private String paymentMethod;
     private List<OrderDTO> orders;
-    private String importe;
 }

@@ -51,6 +51,7 @@ public class ControllerERP {
         response.setTipoDeDocumento("I");
         response.setRfc("ASE1809185N2");
         response.setPaymentMethod("");
+        response.setImporte("100.10");
         OrderDTO orderDTO = new OrderDTO();
         orderDTO.setDocumentStatus("");
         orderDTO.setCreationDate("2024-07-23T18:32:43.000+00:00");
